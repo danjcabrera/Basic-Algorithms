@@ -1,5 +1,3 @@
-## Examples and comments from "Extreme C" by Kamran Amini
-
 ### Static Library  
 - A static library is simply a Unix archive made from relocatable object files. Such
 a library is usually linked together with other object files to form an executable
@@ -51,6 +49,7 @@ the preceding relocatable object files as a single archive.
     ending with a `.a` or `.so` file extension. so `-lgeometry` will be `libgeometry.a` or `libgeometry.so`.       
     * `-lm`:  tells gcc to look for a math library named `libm.a` or `libm.so`.   
 
+##### Examples and comments from "Extreme C" by Kamran Amini
 
 
 
