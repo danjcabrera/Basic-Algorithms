@@ -1,5 +1,3 @@
-#### Examples and comments from "Extreme C" by Kamran Amini
-
 ## Dynamic libraries   
 Dynamic libraries (shared object files) are not part of the executable itsef. Instead, 
 they should be loaded and brought in while loading a process for execution.  
@@ -77,7 +75,7 @@ int main(int argc), char** argv) {
 }
 
 When compiling the program is not linked to the shared object library:  
-`gcc <source-code-main.c> -ldl -o a.out`   
+`gcc <source-code-main.c> -ldl -o a.out`  
 
 
-
+#### Examples and comments from "Extreme C" by Kamran Amini
