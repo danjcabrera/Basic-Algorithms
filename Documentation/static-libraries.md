@@ -1,5 +1,3 @@
-## Examples and comments from "Extreme C" by Kamran Amini
-
 ### Static Library  
 - A static library is simply a Unix archive made from relocatable object files. Such
 a library is usually linked together with other object files to form an executable
@@ -29,7 +27,7 @@ The `ar` command does not necessarily create a *compressed* archive file. It is
 only used to put files together to form a single file that is an archive.   
 
 ### How to create a static library    
-1. Compile all of the source files in a C/C++ project.
+1. Compile all of the source files in a C/C++ project.    
 `gcc -c <source-file1.c> -o <relocatable-file1.o>`   
 `gcc -c <source-file2.c> -o <relocatable-file2.o>`   
 2. Use the Unix archiving tool `ar` to create the static library's archive file:   
@@ -38,7 +36,7 @@ only used to put files together to form a single file that is an archive.
 the preceding relocatable object files as a single archive.  
 4. Create a directory to contain the static library and move the static library file to this directory.
 5. Show the contents of the archived file:   
-`ar t /<path>/<to>/<file-folder>/<lib-name.a>`   
+`ar t /<path>/<to>/<file-folder>/<lib-name.a>`     
 
 ### How to use a static library   
 1. The new source file will include the library's API (the header file) and make use of its functions. 
@@ -51,6 +49,7 @@ the preceding relocatable object files as a single archive.
     ending with a `.a` or `.so` file extension. so `-lgeometry` will be `libgeometry.a` or `libgeometry.so`.       
     * `-lm`:  tells gcc to look for a math library named `libm.a` or `libm.so`.   
 
+##### Examples and comments from "Extreme C" by Kamran Amini
 
 
 
